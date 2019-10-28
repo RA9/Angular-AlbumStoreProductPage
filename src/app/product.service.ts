@@ -9,7 +9,7 @@ import {Product} from './product';
 export class ProductService {
 
   private _albumUrl = '../assets/album.json';
-  private _productsUrl = '../assests/album.json';
+  private _productsUrl = '../assets/album.json';
 
   constructor(private _http: Http) {
 
